@@ -1,0 +1,249 @@
+.h1-titulo{
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+    /*font-family: 'Anton', sans-serif;
+    font-family: 'Kaushan Script', cursive;*
+    /*color:#FFF;*/
+    background-color: black;
+  }
+
+.full-screen{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+
+.card-body{
+  background-color: black;
+}
+
+  /* FOTO TOPO*/
+
+  .logo-header{
+    -webkit-animation:logo-header 1.1s both;
+    animation:logo-header 1.1s both;
+  }
+
+ @-webkit-keyframes logo-header{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes logo-header{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+
+
+/* BACKGROUND ANIMADO
+
+  .color-change-2x{
+    -webkit-animation:color-change-2x 3s linear infinite alternate both;animation:color-change-2x 3s linear infinite alternate both;
+  }
+
+@-webkit-keyframes color-change-2x{0%{background:#1d19ea}100%{background:#b22cff}}@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}
+
+ .bg-pan-bottom {
+    -webkit-animation: bg-pan-bottom 10s both;
+    -moz-appearance: bg-pan-bottom 10s both;
+    animation: bg-pan-bottom 10s both;
+  }
+
+*/
+h1, h2, h3, h4, h5, h6, p, .instrucao{
+    font-family: 'Karla', sans-serif ;
+    color:rgb(255, 0, 157) ;
+  }
+ 
+
+  /* IMG CARDS */
+
+  .card-body{
+    background-color: transparent;
+  }
+.card{
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+}
+
+.card-img-top:hover{
+  transition: transform .2s;
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  -moz-transform: scale(1.02);
+} 
+
+a{
+  color:rgb(255, 0, 212);
+}
+
+a:hover{
+  color:pink ;
+  text-decoration: none;
+}
+
+/* ANIMAÇÃO TITLE */
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 0, 157); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .16em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(22, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 0, 157); }
+}
+
+/* TEXTO CARDS */
+.card-text{
+  color:rgb(255, 91, 192);
+}
+
+/* BT JOGAR */
+
+.btn{
+  text-align: center;  
+}
+.primary-btn {
+  text-align: center ;
+  line-height: 25px ;
+  padding: 7px 40px ;
+  border-radius: 20px ;
+  background-color: transparent ;
+  border: 1px solid #ffffff ;
+  color: rgb(255, 0, 157) ;
+  display: inline-block ;
+  font-weight: 500 ;
+  background-size: 600px ;
+  text-decoration: none ;
+}
+
+.primary-btn:hover{
+  text-align: center ;
+  line-height: 25px ;
+  padding: 7px 40px ;
+  border-radius: 20px ;
+  background-color: rgb(255, 0, 157) ;
+/*  border: 1px solid #ffffff;*/
+  color: black ;
+  display: inline-block ;
+  font-weight: 500 ;
+  background-size: 600px ;
+  text-decoration: none ;
+}
+
+/* EMBED JOGOS */
+
+.embed-responsive-item{
+  width: 100%;
+  height: 750px;
+}
+
+/* RODAPÉ */
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ffffff;
+}
+
+.bg-rodape2{
+  width: 100%;
+}
+
+/* MENU */
+
+.navbar{
+  border: 1px solid #ffffff;
+  background-color: black;
+}
+
+.dropdown-menu{
+  background-color: black;
+  border: 1px solid #ffffff;
+  border: 1px solid rgb(255, 0, 157);
+}
+
+.dropdown-item{
+  background-color: black ;
+  color:rgb(255, 0, 157);
+}
+
+.dropdown-item:hover{
+  background-color: rgb(255, 0, 157);
+  color: black ;
+}
+
+/* SEÇÃO ABOUT */
+.about-top{
+  font-size: 30px;
+}
+
+.about{
+  color:rgb(255, 0, 157);
+  border: 1px solid #ffffff;
+/*  background-color:black;*/
+}
+
+/* PARTICULAS FUNDO */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+ /* background-position: 50% 50%;*/
+}
+
+/* ---- particles.js container ---- */
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+/*  border: 1px solid #ffffff;*/
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+ /* border: 1px solid #ffffff;*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 157); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 0, 180); 
+}
