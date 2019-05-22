@@ -3,9 +3,6 @@
 }
 
 body {
-    /*font-family: 'Anton', sans-serif;
-    font-family: 'Kaushan Script', cursive;*
-    /*color:#FFF;*/
     background-color: black;
   }
 
@@ -30,21 +27,6 @@ body {
  @-webkit-keyframes logo-header{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes logo-header{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
 
 
-/* BACKGROUND ANIMADO
-
-  .color-change-2x{
-    -webkit-animation:color-change-2x 3s linear infinite alternate both;animation:color-change-2x 3s linear infinite alternate both;
-  }
-
-@-webkit-keyframes color-change-2x{0%{background:#1d19ea}100%{background:#b22cff}}@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}
-
- .bg-pan-bottom {
-    -webkit-animation: bg-pan-bottom 10s both;
-    -moz-appearance: bg-pan-bottom 10s both;
-    animation: bg-pan-bottom 10s both;
-  }
-
-*/
 h1, h2, h3, h4, h5, h6, p, .instrucao{
     font-family: 'Karla', sans-serif ;
     color:rgb(255, 0, 157) ;
@@ -232,6 +214,7 @@ a:hover{
   color:rgb(255, 0, 157);
   border: 1px solid #ffffff;
   padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 5%;
 /*  background-color:black;*/
 }
@@ -294,7 +277,7 @@ canvas {
 
 {
   .typewriter h1 {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .navbar {
@@ -319,5 +302,21 @@ canvas {
 .contato header{
   text-align: center;
   font-size: 26px;
-  color: rgb(255, 0, 157);;
+  color: rgb(255, 0, 157);
+}
+
+/* SOCIAL */
+.social{
+  align-content: center;
+  text-align: center;
+}
+
+.social-icon{
+  font-size: 21pt;
+  letter-spacing: 10pt;
+}
+
+.social-icon:hover{
+  transition: ease-in 0.3s;
+  color: rgb(255, 166, 221);
 }

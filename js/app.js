@@ -135,15 +135,13 @@ particlesJS('particles-js',
 
 );
 
-/* PROGRESS 
-var bar = new ProgressBar.Circle(progress-bar, {
-  strokeWidth: 6,
-  easing: 'easeInOut',
-  duration: 1400,
-  color: '#FFEA82',
-  trailColor: '#eee',
-  trailWidth: 1,
-  svgStyle: null
-});
 
-bar.animate(1.0);  // Number from 0.0 to 1.0*/
+/* Ancora */
+
+  var $doc =$('html,body');
+    $('.scroll-page').click(function(){
+      $doc.animate({
+        scrollTop: $($.attr(this,'href')).offset().top
+      },500); 
+      return false;
+    });
